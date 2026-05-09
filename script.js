@@ -107,11 +107,6 @@ function divide() {
         screen.value = ``
         screen.value = `${soma}`
         enter.value = ``
-    } else {
-        //error
-        err.innerHTML = `Err: is not possible divide, please click Eraser`
-        enter.value = ``
-        screen.value = 403
     }
 }
 
